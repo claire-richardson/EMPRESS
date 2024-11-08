@@ -65,8 +65,9 @@ Note that `box_sampling.py` can take several hours or more to run depending on t
 ### **Step 3**:
 Use `EMPRESS.ipynb` to interactively apply filters and weights to the dataset and develop an optimized list of events. The user may indicate whether or not to save the filters/weights that they have applied to come up with a given list of events. `EMPRESS.ipynb` output includes:
 
-- `/EMPRESS/event_lists/{list_name}_list.csv` - the actual list of events, in order of priority
-- `/EMPRESS/event_lists/{list_name}_params.csv` - the filters/weights applied to develop the corresponding list of events
+- `/EMPRESS/event_lists/{list_name}_events.csv` - the actual list of events, in order of priority
+- `/EMPRESS/event_lists/{list_name}_raypaths.csv` - the list of filtered raypaths included in the final list of events
+- `/EMPRESS/event_lists/{list_name}_params.txt` - the filters/weights applied to develop the corresponding list of events
 
 
 
